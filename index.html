@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NexusVPN - Privacy Simplified</title>
+  <meta name="description" content="A VPN you can trust.">
+  <meta property="og:url" content="https://khanahmed22.github.io/NexusVPN-V2.0">
+  <meta property="og:image" content="images/Nexusvpn.png">
+
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="icon" type="image/x-icon" href="icons/logo2.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+</head>
+
+<body>
+  <nav>
+    <!--Mobile-->
+    <ul class="sidebar">
+      <li class="mobile-labels" onclick=closeMenu()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35"
+            viewBox="0 -960 960 960" width="35">
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+          </svg></a></li>
+      <li class="mobile-labels"><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="30"
+            viewBox="0 -960 960 960" width="30">
+            <path
+              d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z" />
+          </svg>Home</a></li>
+      <li class="mobile-labels"><a href="pricing.html"><svg xmlns="http://www.w3.org/2000/svg" height="30"
+            viewBox="0 -960 960 960" width="30">
+            <path
+              d="M560-440q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35ZM280-320q-33 0-56.5-23.5T200-400v-320q0-33 23.5-56.5T280-800h560q33 0 56.5 23.5T920-720v320q0 33-23.5 56.5T840-320H280Zm80-80h400q0-33 23.5-56.5T840-480v-160q-33 0-56.5-23.5T760-720H360q0 33-23.5 56.5T280-640v160q33 0 56.5 23.5T360-400Zm440 240H120q-33 0-56.5-23.5T40-240v-440h80v440h680v80ZM280-400v-320 320Z" />
+          </svg> Pricing</a></li>
+      <li class="mobile-labels"><a href="features.html"><svg xmlns="http://www.w3.org/2000/svg" height="30"
+            viewBox="0 -960 960 960" width="30">
+            <path
+              d="m422-232 207-248H469l29-227-185 267h139l-30 208ZM320-80l40-280H160l360-520h80l-40 320h240L400-80h-80Zm151-390Z" />
+          </svg> Features</a></li>
+      <li class="mobile-labels"><a href="login.html"><svg xmlns="http://www.w3.org/2000/svg" height="35"
+            viewBox="0 -960 960 960" width="35">
+            <path
+              d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z" />
+          </svg> Log In</a></li>
+    </ul>
+
+    <!--Desktop-->
+    <ul>
+      <li><a href="index.html"><img class="logo" src="icons/logo.png"></a></li>
+      <li class="desktop-labels"><a href="index.html">Home</a></li>
+      <li class="desktop-labels"><a href="pricing.html">Pricing</a></li>
+      <li class="desktop-labels"><a href="features.html">Features</a></li>
+      <li class="desktop-labels"><a href="login.html"><button class="log-in-btn">Log In</button></a></li>
+      <li class="menu-button" onclick=showMenu()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30"
+            viewBox="0 -960 960 960" width="30">
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+          </svg></a></li>
+    </ul>
+
+  </nav>
+
+  <section>
+
+    <div class="Grid-1">
+
+      <div>
+        <h1 class="name">NexusVPN<img style="width: 60px; margin-bottom: -12px;" src="icons/logo2.png"></h1>
+        <p class="intro-text">Explore the internet without limits. With NexusVPN, your online world stays private and
+          free.
+          Because everyone deserves a secure and borderless online experience.
+
+        </p>
+        <ul class="features">
+          <li>&#10004; Stay Safer online with the leading VPN Service</li>
+          <li>&#10004; Detect Malware During Donwload</li>
+          <li>&#10004; Block Trackers and instrusive ads</li>
+          <li>&#10004; 24/7 Support</li>
+        </ul>
+        <a href="pricing.html"><button class="start-button">Get Started</button></a>
+
+      </div>
+
+      <div>
+        <img src="images/main-pic.jpg">
+
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+    <div class="vpn-intro">
+      <h2>What is a VPN?</h2>
+      <br>
+      <p>VPN stands for “virtual private network.” It’s a service that gives you safe and private access to the
+        internet. By encrypting your connection,
+        a VPN hides your IP and online activity from spying eyes and keeps your data safe from cybercriminals.
+      </p>
+      <center>
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+          type="module"></script>
+
+        <dotlottie-player src="https://lottie.host/87e2a982-133e-4cca-b21d-79a10413a02d/W9kR5RtNTB.json"
+          background="transparent" speed="1" style="width: 200px; height: 200px;" loop autoplay></dotlottie-player>
+      </center>
+    </div>
+
+    <div class="Grid-2">
+      <div>
+        <img src="images/phone-auto-connection-servers-protected-md.webp">
+      </div>
+
+      <div style="margin-left: 20px;margin-right: 20px; padding-top: 70px;">
+        <h2 style="text-align: center; margin-bottom: 15px; font-size: 30px;">Why NexusVPN?</h2>
+        <ul class="nifty-cool-features">
+          <li>Thanks to all kinds of nifty, cutting-edge technology, NexusVPN keeps your devices malware free and your
+            browsing safe from strangers’ eyes. How safe?
+            It would take the world’s most powerful computer billions of years to unencrypt your data — that safe.
+          </li>
+          <li>
+            We know you have emails to send, games to beat, and videos to watch, so NexusVPN will ensure the best VPN
+            connection speeds possible. You get unlimited data, thousands of VPN servers worldwide,
+            and modern VPN protocols working quickly to deliver you the best internet experience without interruptions
+          </li>
+          <li>
+            With NexusVPN, you can browse like no one’s watching — because no one is. We don’t track what you do online
+            (and have undergone audits to prove it.) And if you want extra privacy features, you can instantly double
+            your protection by connecting to Double VPN servers —
+            it will encrypt your data and change your IP twice.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <center class="sitback">
+      <h2>Sit back, relax, and browse in confidence</h2>
+    </center>
+    <div class="Grid-3">
+
+      <div class="more-features">
+        <img src="images/threat-protection-protective-bubble-threats-sm.svg">
+        <h2>Malware Protection</h2>
+        <p>
+          A safer, better, easier digital life — Threat Protection will block malware before it downloads.
+
+        </p>
+      </div>
+
+      <div class="more-features">
+        <img src="images/meshnet-encrypted-network-phone-girl.svg">
+        <h2>Remote file access
+        </h2>
+        <p>All your devices are just a click away. Wherever you go, connect to them safely with Meshnet.</p>
+
+      </div>
+
+      <div class="more-features">
+        <img src="images/dark-web-monitor-male-binoculars.svg">
+        <h2>Dark Web Monitor</h2>
+        <p>Additional protection for your accounts — get instant alerts if any have been leaked online.</p>
+      </div>
+
+
+
+    </div>
+    <center><a href="features.html"><button class="see-more-btn">Check Out More Features</button></a></center>
+
+    <h2 class="Take">Take your online security to the next level</h2>
+
+    <div class="Grid-4">
+      <div class="Grid-4-components">
+        <center><img src="icons/icons8-shield-94.png"></center>
+        <h3>Safe browsing</h3>
+        <p>Enjoy an effortless experience every time you go online: avoid
+          downloading malware and browse safe from snoopers, trackers, and ads.
+        </p>
+      </div>
+
+
+      <div class="Grid-4-components">
+        <center><img src="icons/icons8-password-key-94.png"></center>
+        <h3>Password security</h3>
+        <p>Add a premium password manager to the mix: it will generate, auto-fill, and store your passwords for you.
+          No more endless resets!
+        </p>
+
+      </div>
+
+      <div class="Grid-4-components">
+        <center><img src="icons/icons8-locked-door-94.png"></center>
+        <h3>Encrypted files</h3>
+        <p>Go all out and have your files encrypted, backed up, and always within reach in a secure cloud.
+          Share securely, sync effortlessly, and rest easy.
+        </p>
+      </div>
+
+    </div>
+
+
+
+
+    <div class="Grid-5">
+      <div class="Grid-5-components">
+        <img src="images/Nexus-laptop.png">
+      </div>
+
+      <div class="Grid-5-components">
+        <h3>A one-stop shop for safe browsing, passwords, and files</h3>
+        <p>Pick the best plan for your needs and rest easy knowing all aspects of your digital life are
+          protected at all times.
+        </p>
+        <center><a href="pricing.html"><button>Choose Your Plan</button></a></center>
+      </div>
+    </div>
+
+    <center>
+      <h2 class="Available">Available for all your devices</h2>
+    </center>
+    <center>
+      <h3 class="connect">Connect up to six devices and enjoy secure and private access to the internet — even on public
+        Wi-Fi.
+      </h3>
+    </center>
+
+    <div class="Flexbox-1">
+
+      <img src="icons/w11.png">
+
+      <img src="icons/linux.png">
+
+      <img src="icons/apple.png">
+
+      <img src="icons/android.png">
+    </div>
+
+    <h2 class="FAQ">FAQ</h2>
+    <div class="accordion">
+      <div class="accordion-content">
+        <header>
+          <span class="title">Is it legal to use a VPN?</span>
+          <i class="fa-solid fa-plus"></i>
+        </header>
+
+        <p class="description">
+          Yes, VPNs are legal in most countries around the world, including the US, Canada, and most of Europe, as long
+          as you don’t do anything illegal while using one.
+
+          However, countries that enforce online surveillance and censorship may restrict VPN usage or ban VPN services
+          altogether. For example, VPNs are illegal in North Korea, Belarus, Oman, Iraq, and Turkmenistan. Other
+          countries, like Russia and China, heavily restrict the use of VPNs.
+        </p>
+      </div>
+
+      <div class="accordion-content">
+        <header>
+          <span class="title">Can I use NexusVPN while traveling abroad?</span>
+          <i class="fa-solid fa-plus"></i>
+        </header>
+
+        <p class="description">
+          Yes, you can use NexusVPN while traveling. By sending your data through an encrypted VPN tunnel, it will help
+          you stay safe on unsecured wireless networks and provide access to the content and sites you’re used to back
+          home. Just make sure to download the apps and get your subscription before you leave — they might not be
+          available if you’re visiting a more restrictive country.
+        </p>
+      </div>
+      <div class="accordion-content">
+        <header>
+          <span class="title">Why should I pay for a VPN service?</span>
+          <i class="fa-solid fa-plus"></i>
+        </header>
+
+        <p class="description">
+          You should pay to get a better service. It’s difficult for free VPN providers to match the service quality and
+          internet safety a paid provider offers, so you’re more likely to experience slow connections and weak
+          security. If you use a free VPN, its creators have to make money somehow, so they may shower you with ads,
+          track and sell your data, or even use your device to route other people’s traffic through — a reliable paid
+          VPN provider won’t.
+
+          With NexusVPN, you can rest assured that your private data is protected by cutting-edge encryption so you can
+          experience enhanced online privacy while browsing without restrictions on data and bandwidth. Still not sure?
+          You can try our services and get a full refund within a month of purchase if you’re not satisfied.
+        </p>
+      </div>
+      <div class="accordion-content">
+        <header>
+          <span class="title">Is using a VPN safe for online banking?</span>
+          <i class="fa-solid fa-plus"></i>
+        </header>
+
+        <p class="description">
+          Using a VPN is not only safe, it can add a valuable layer of security to your online banking, especially on
+          public Wi-Fi networks. And because some financial institutions will suspend access to users who appear to be
+          visiting from somewhere unexpected, connecting to a server location in your home country before you log in to
+          your bank or PayPal account can save you from getting locked out.
+        </p>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+  <footer>
+    <section class="section1">
+      <div class="left-section">
+        <p>About Us</p>
+        <p>FAQ</p>
+        <p>Privacy Policy</p>
+        <p>Terms of Service</p>
+        <p></p>
+
+      </div>
+
+      <div class="middle-section">
+        <p>Tutorials</p>
+        <p>Support Center</p>
+        <p>Contomer Center</p>
+        <p>CES 2023</p>
+
+      </div>
+
+      <div class="right-section">
+        <p><img class="social-icons" src="icons/facebook-round-color-icon.webp">Facebook</p>
+        <p><img class="social-icons" src="icons/youtube-color-icon.webp">Youtube</p>
+        <p><img class="social-icons" src="icons/ig-instagram-icon.webp">Instagram</p>
+        <p><img class="social-icons" src="icons/pink-mail-icon.svg">Email</p>
+      </div>
+
+    </section>
+    <section class="section2">
+
+      ddddd
+    </section>
+  </footer>
+
+
+  <script src="scripts/home.js"></script>
+
+
+
+</body>
+
+</html>

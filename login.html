@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Account</title>
+  <link rel="stylesheet" href="styles/log-in.css">
+  <link rel="icon" type="image/x-icon" href="icons/logo2.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+  <nav>
+    <!--Mobile-->
+    <ul class="sidebar">
+      <li class="mobile-labels" onclick=closeMenu()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35"
+            viewBox="0 -960 960 960" width="35">
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+          </svg></a></li>
+      <li class="mobile-labels"><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="30"
+            viewBox="0 -960 960 960" width="30">
+            <path
+              d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z" />
+          </svg>Home</a></li>
+      <li class="mobile-labels"><a href="pricing.html"><svg xmlns="http://www.w3.org/2000/svg" height="30"
+            viewBox="0 -960 960 960" width="30">
+            <path
+              d="M560-440q-50 0-85-35t-35-85q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35ZM280-320q-33 0-56.5-23.5T200-400v-320q0-33 23.5-56.5T280-800h560q33 0 56.5 23.5T920-720v320q0 33-23.5 56.5T840-320H280Zm80-80h400q0-33 23.5-56.5T840-480v-160q-33 0-56.5-23.5T760-720H360q0 33-23.5 56.5T280-640v160q33 0 56.5 23.5T360-400Zm440 240H120q-33 0-56.5-23.5T40-240v-440h80v440h680v80ZM280-400v-320 320Z" />
+          </svg> Pricing</a></li>
+      <li class="mobile-labels"><a href="features.html"><svg xmlns="http://www.w3.org/2000/svg" height="30"
+            viewBox="0 -960 960 960" width="30">
+            <path
+              d="m422-232 207-248H469l29-227-185 267h139l-30 208ZM320-80l40-280H160l360-520h80l-40 320h240L400-80h-80Zm151-390Z" />
+          </svg> Features</a></li>
+    </ul>
+
+    <!--Desktop-->
+    <ul>
+      <li><a href="index.html"><img class="logo" src="icons/logo.png"></a></li>
+      <li class="desktop-labels"><a href="index.html">Home</a></li>
+      <li class="desktop-labels"><a href="pricing.html">Pricing</a></li>
+      <li class="desktop-labels"><a href="features.html">Features</a></li>
+      <li class="menu-button" onclick=showMenu()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="30"
+            viewBox="0 -960 960 960" width="30">
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+          </svg></a></li>
+    </ul>
+
+  </nav>
+
+
+
+  <section>
+
+    <div class="Log-in-container">
+      <form class="FORM">
+        <h1>Log In To Your Account</h1>
+        <p>Email</p>
+        <input class="inputBox" type="email" name="email" id="email" required>
+        <p>Password</p>
+        <input class="inputBox" type="password" name="password" id="password" required>
+        <p>Forgot Password? <span class="forgot-password">Click Here</span></p>
+        <button>Sign In</button>
+        <p>Don't have an account? <a style="text-decoration: none;" href="sign-up.html"><span class="Create">Create
+              One!</span></a></p>
+      </form>
+
+    </div>
+
+
+
+
+  </section>
+
+
+
+  <footer>
+    <section class="section1">
+      <div class="left-section">
+        <p>About Us</p>
+        <p>FAQ</p>
+        <p>Privacy Policy</p>
+        <p>Terms of Service</p>
+        <p></p>
+
+      </div>
+
+      <div class="middle-section">
+        <p>Tutorials</p>
+        <p>Support Center</p>
+        <p>Contomer Center</p>
+        <p>CES 2023</p>
+
+      </div>
+
+      <div class="right-section">
+        <p><img class="social-icons" src="icons/facebook-round-color-icon.webp">Facebook</p>
+        <p><img class="social-icons" src="icons/youtube-color-icon.webp">Youtube</p>
+        <p><img class="social-icons" src="icons/ig-instagram-icon.webp">Instagram</p>
+        <p><img class="social-icons" src="icons/pink-mail-icon.svg">Email</p>
+      </div>
+
+    </section>
+
+  </footer>
+
+
+  <script src="scripts/log-in.js"></script>
+
+
+
+</body>
+
+</html>
